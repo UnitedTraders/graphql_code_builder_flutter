@@ -653,5 +653,6 @@ Expression _directiveLocation(DirectiveLocation location) {
       return _ref("DirectiveLocation.inputObject");
     case DirectiveLocation.inputFieldDefinition:
       return _ref("DirectiveLocation.inputFieldDefinition");
+    default: throw Exception("There is no location: $location");
   }
 }
