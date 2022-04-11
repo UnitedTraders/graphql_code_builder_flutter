@@ -1,5 +1,5 @@
 name: graphql_code_builder_flutter
-version: 1.0.0
+version: 1.0.2
 description: Dart code builders taking *.graphql documents and SDL to build useful classes.
 
 environment:
@@ -10,7 +10,7 @@ dependencies:
   built_value: ^8.0.6
   code_builder: ^4.0.0
   collection: ^1.15.0
-  gql: ^0.13.1-alpha
+  gql: 0.13.1
   gql_exec: 0.3.0
   path: ^1.8.0
 dev_dependencies: 
