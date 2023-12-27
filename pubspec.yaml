@@ -3,15 +3,15 @@ version: 1.0.4
 description: Dart code builders taking *.graphql documents and SDL to build useful classes.
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 dependencies: 
-  analyzer: 5.7.1
+  analyzer: ^6.0.0
   built_collection: ^5.0.0
   built_value: ^8.0.6
   code_builder: ^4.0.0
   collection: ^1.15.0
-  gql: ^0.14.0
-  gql_exec: ^0.4.3
+  gql: ^1.0.0+1
+  gql_exec: ^1.0.0+1
   path: ^1.8.0
 dev_dependencies: 
   build_runner: ^2.1.0
